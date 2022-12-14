@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: rgb(45, 57, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(45, 57, 34, 1) 0%,
+    rgba(89, 109, 72, 1) 16%,
+    rgba(192, 199, 185, 1) 90%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.content {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+}
+.right {
+  width: 65%;
+  display: flex;
+  background-color: rgb(249, 249, 249);
+}
+.left {
+  color: white;
+  width: 35%;
+  background-image: url(./Images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.right-section {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: 70%;
+  padding-left: 2rem;
+}
+
+.right-section > p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  font-style: oblique;
+}
+.form-style {
+  height: 250px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: -2rem;
+  padding-left: 2rem;
+  padding-top: 10px;
+  box-shadow: 0px 4px 2px rgb(199, 199, 199);
+}
+label {
+  display: block;
+  font-size: 10px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+td {
+  padding: 10px 5px;
+  width: 300px;
+}
+input {
+  width: 200px;
+  height: 20px;
+  border: solid #e5e7eb 1px;
+  border-radius: 5px;
+  /* font-size: 0.8rem; */
+}
+input:focus {
+  box-shadow: 5px 5px 5px gray;
+}
+input[type="submit"] {
+  background-color: #596d48;
+  height: 40px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-top: 20px;
+  border: #596d48;
+}
+
+a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
+}
+#login {
+  font-size: 1rem;
+  font-weight: 500;
+}
+:root {
+  --input-height: 25vh;
+  --input-width: 50vw;
+}
+.input-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: var(--input-width);
+  height: var(--input-height);
+}
+
+span {
+  margin: 10px;
+}
+.logo > .header {
+  font-family: Trattatello, fantasy;
+  font-size: 2.5rem;
+  padding-left: 5px;
+  text-decoration: overline;
+}
+.logo {
+  position: relative;
+  top: 25vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo > img {
+  width: 100px;
+  height: 100px;
+}
+input:invalid {
+  border: solid 1px red;
+}
