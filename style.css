@@ -130,3 +130,22 @@ span {
 input:invalid {
   border: solid 1px red;
 }
+.footer {
+  position: absolute;
+  bottom: -56vh;
+  right: 150px;
+  font-style: italic;
+  text-decoration: underline;
+  padding: 0px 20px;
+  font-size: 0.7rem;
+}
+:focus {
+  outline: none;
+  border: 2px solid #596d48;
+}
+.footer > p {
+  margin: 0;
+}
+#author {
+  color: rgb(112, 175, 57);
+}
